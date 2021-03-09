@@ -1,0 +1,28 @@
+:root {
+  --secondary-color: #00c9c8;
+  --black: rgb(36, 36, 36);
+  --white: rgb(216, 216, 216);
+}
+
+span {
+  color: var(--secondary-color);
+}
+
+body {
+  background-color: var(--black);
+  color: var(--white);
+}
+navbar {
+  background-color: var(--black);
+  color: var(--white);
+}
+.london {
+  background-image: url("../img/london.png");
+  background-position: center;
+  background-size: auto;
+}
+#skills {
+  background-color: var(--white);
+  height: 400px;
+  color: var(--black);
+}
