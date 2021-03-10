@@ -12,7 +12,7 @@ body {
   background-color: var(--black);
   color: var(--white);
 }
-navbar {
+.navbar {
   background-color: var(--black);
   color: var(--white);
 }
@@ -20,9 +20,24 @@ navbar {
   background-image: url("../img/london.png");
   background-position: center;
   background-size: auto;
+  margin-top: 64px;
 }
 #skills {
   background-color: var(--white);
-  height: 400px;
+  padding-bottom: 32px;
   color: var(--black);
+}
+#contact {
+  background-color: var(--secondary-color);
+}
+#contact svg {
+  fill: var(--black);
+}
+
+.black {
+  color: var(--black);
+}
+
+.white {
+  color: var(--white);
 }
