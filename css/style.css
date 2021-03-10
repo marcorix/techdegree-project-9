@@ -3,6 +3,9 @@
   --black: rgb(36, 36, 36);
   --white: rgb(216, 216, 216);
 }
+html {
+  scroll-behavior: smooth;
+}
 
 span {
   color: var(--secondary-color);
