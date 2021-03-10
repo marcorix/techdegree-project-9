@@ -44,5 +44,8 @@ body {
 
 .ptb {
   padding-top: 64px;
-  padding-bottom: 64px;
+  padding-bottom: 90px;
+}
+.secondary {
+  color: var(--secondary-color);
 }
