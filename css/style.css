@@ -19,6 +19,10 @@ body {
   background-color: var(--black);
   color: var(--white);
 }
+.navbar-nav {
+  position: relative;
+}
+
 .london {
   background-image: url("../img/london.png");
   background-position: center;
