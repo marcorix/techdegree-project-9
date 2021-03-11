@@ -25,9 +25,16 @@ body {
 
 .london {
   background-image: url("../img/london.png");
+
   background-position: center;
   background-size: auto;
   margin-top: 64px;
+}
+.about-link {
+  cursor: pointer;
+}
+.about-link:hover {
+  color: #6bffff;
 }
 #skills {
   background-color: var(--white);

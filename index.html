@@ -46,11 +46,11 @@
     <!-- /Navbar -->
 
     <!-- jumbotron -->
-    <div class="london">
+    <div class="london p-5">
       <div class="jumbotron london jumbotron-fluid">
         <div class="container">
           <h1 class="display-4">A Junior Front End Developer</h1>
-          <p class="lead">From Italy to London with Love.</p>
+          <span class="lead"><mark>From Italy to London with Love.</mark></p>
         </div>
       </div>
     </div>
@@ -61,16 +61,23 @@
       <div class="container ptb">
         <div class="row">
           <div class="col-sm">
-            <h2 class="mb-4">Hello, i am Marco!</h2>
+            <h2 class="mb-4">
+              Hello, i am
+              <span class="secondary about-link" id="marco">Marco!</span>
+            </h2>
 
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Perferendis, iste! Excepturi similique, pariatur, neque
               exercitationem facere voluptates quam ipsam cumque distinctio
               dolorem ipsum minus
-              <span class="secondary-color"> TREEHOUSE</span>. Harum aliquid eum
-              reprehenderit earum et, quo nemo iure! Harum asperiores explicabo
-              reprehenderit sunt.
+              <span class="secondary-color about-link" id="treehouse">
+                TREEHOUSE</span
+              >. Harum aliquid eum reprehenderit earum et, quo nemo iure! Harum
+              asperiores explicabo reprehenderit sunt.Excepturi similique,
+              <span class="secondary-color about-link" id="udemy"> UDEMY</span>
+              neque exercitationem facere voluptates quam ipsam cumque
+              distinctio dolorem ipsum minus.
             </p>
             <h4>Feel free to contact me!</h4>
             <div class="mb-4">
@@ -89,8 +96,8 @@
               <h5 class="d-inline">marco.rix@gmail.com</h5>
             </div>
           </div>
-          <div class="col-md">
-            <img src="img/me.png" class="img-fluid" alt="Marco Rix" />
+          <div class="col-sm p-xl-" id="about-photo">
+            <img src="img/me.png" class="img-fluid w-100" alt="Marco Rix" />
           </div>
         </div>
       </div>
