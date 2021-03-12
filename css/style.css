@@ -29,23 +29,30 @@ mark {
   color: var(--secondary-color);
 }
 
+#links a {
+  color: var(--white);
+}
+
 .london {
   background-image: url("../img/london.png");
-
   background-position: center;
   background-size: auto;
-  margin-top: 64px;
+  margin-top: 60px;
 }
 .about-link {
   cursor: pointer;
 }
 .about-link:hover {
-  color: #6bffff;
+  color: yellow;
 }
 #skills {
   background-color: var(--white);
   padding-bottom: 32px;
   color: var(--black);
+}
+
+#works a {
+  color: var(--secondary-color);
 }
 #contact {
   background-color: var(--secondary-color);
